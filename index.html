@@ -119,6 +119,7 @@
   </div>
   <script>
     const video = document.createElement('video')
+    video.classList.add('background-video')
     video.addEventListener('loadeddata', () => {
       const previewFrame = document.querySelector('.background-video-preview')
       video.loop = true
