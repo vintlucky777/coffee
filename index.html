@@ -151,7 +151,6 @@
       for (let i = 0; i < words.length; i++) {
         const lastItem = i+1 == words.length
         const word = words[i]
-        console.log(i, i+1, words.length, (i+1)<words.length)
         const span = document.createElement('span')
         span.classList.add('fade-in', 'word')
         span.style = `animation-delay: ${animDelay + 0.2*i}s;`
